@@ -1,11 +1,13 @@
-# HCSWorkshops2020
+# hcs-f20-ml
+Slides: https://tinyurl.com/hcs-f20-w3-slides
 
-Four little mini projects for this workshop:
+Code: https://github.com/mpekala23/hcs-f20-ml
 
-1. wbw.py prints out the most popular posts from Wait But Why, an internet blog, and arranges them in descending order of number of comments.
+Data: https://tinyurl.com/hcs-f20-w1-data
 
-2. weather.py pulls data from the government weather site (this was basically the tutorial found here: https://www.dataquest.io/blog/web-scraping-tutorial-python/)
+Submission: https://forms.gle/NuC9jMEoxV2dY592A
 
-3. yoda_quotes.py prints out a bunch of yoda quotes from a random site, formatted nicely
 
-4. The flask api folder is a mini Flask API project I started (it doesn't do much).
+My code is in connectfour.py
+Note that the same strategy as in tictactoe is used. However, there a HUGE number of variations for connect4, so it it harder to train the bot. I ran it a bunch of times with an increasing number of training games. The most I had patience for was 100k, which took a while (several minutes), which resulted in a about 40 percent win rate against a bot that simply makes winning moves if it can, and blocks winning moves if it can. That's still not pretty high, but a lot better than <1 percent, which is what you get without training. I"m sure if you increased it to a million training games, it would then win most against the opponent bot.
+
